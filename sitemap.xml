@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/en/sitemap.xml</loc>
-    
-      <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
   
-  <sitemap>
-    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/fr/sitemap.xml</loc>
-    
-      <lastmod>2020-01-05T10:42:26+06:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/server-installation/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/tags/</loc>
+  </url>
+  
+</urlset>
