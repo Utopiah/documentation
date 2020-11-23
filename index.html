@@ -192,6 +192,12 @@
 						},
 						
 						{
+							value: "Leaderboard",
+							label: "<p>Description Return students record in descending order base on student points\nMethod GET\/POST Endpoint  \/admin\/api.php?f=leaderboard\n Header  Content-Type: application\/x-www-form-urlencoded\n Body (Optional) Filter by school name  school_name={schoolname}\n Filter by grade level  grade_level={gradelevel}\n Filter by school name and grade level  school_name={schoolname}\u0026amp;grade_level={gradelevel}\n Response Success { result: \u0026#34;success\u0026#34;, \/\/String  content: [ \/\/Array of Objects  { id: int, user_id: int, firstname: string, lastname: string, gradelevel: int, schoolname: int, preferences: string, points: int } ] } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript GET Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;); return await response.json(); } POST Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: \u0026#39;grade_level=1\u0026#39;, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;application\/x-www-form-urlencoded\u0026#39; } }); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/leaderboard\/"
+						},
+						
+						{
 							value: "Linux",
 							label: "<p></p><p>Server</p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/lms-installation-and-docs\/installation\/linux\/"
