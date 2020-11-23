@@ -3,13 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/server-installation/windows/</loc>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/api-and-scaling-docs/authentication/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/requirements/</loc>
     <lastmod>2020-01-05T10:42:26+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/server-installation/</loc>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/api-and-scaling-docs/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/api-and-scaling-docs/endpoints/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/install-xampp/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/linux/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/navigating-the-codebase/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/app-usage-manual/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/entity-relationship-diagram/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/install-git/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/macos/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/obtain-stockknowledge-repo/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/contributing-guidelines/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/setup-the-database/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Stock-Knowledge-Engineering.github.io/documentation/lms-installation-and-docs/installation/windows/configure-the-lms/</loc>
+    <lastmod>2020-01-05T10:42:26+06:00</lastmod>
   </url>
   
   <url>
