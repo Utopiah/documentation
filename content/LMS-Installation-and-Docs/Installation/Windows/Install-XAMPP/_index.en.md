@@ -28,7 +28,7 @@ keywords: ["Server"]
     ![image](8.png)
 11. Run XAMPP as adminstrator
     ![image](9.png)
-12. (Optioanl) Install Apache server to automatically start apache on windows startup. Click the red "X" mark beside Apache and click Yes.
+12. (Optional) Install Apache server to automatically start apache on windows startup. Click the red "X" mark beside Apache and click Yes.
     ![image](10.png)
 13. Click Allow access
     ![image](11.png)
