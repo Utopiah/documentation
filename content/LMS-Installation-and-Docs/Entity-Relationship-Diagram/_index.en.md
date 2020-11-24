@@ -5,3 +5,5 @@ icon: "ti-panel"
 description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet"
 weight: 3
 ---
+
+![image](erd.png)
