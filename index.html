@@ -156,6 +156,12 @@
 						},
 						
 						{
+							value: "Leaderboard",
+							label: "<p>Description Return students record in descending order base on student points\nMethod GET\/POST Endpoint  \/admin\/api.php?f=leaderboard\n Header  Content-Type: application\/x-www-form-urlencoded\n Body (Optional) Filter by school name  school_name={schoolname}\n Filter by grade level  grade_level={gradelevel}\n Filter by school name and grade level  school_name={schoolname}\u0026amp;grade_level={gradelevel}\n Response Success { result: \u0026#34;success\u0026#34;, \/\/String  content: [ \/\/Array of Objects  { id: int, user_id: int, firstname: string, lastname: string, gradelevel: int, schoolname: int, preferences: string, points: int } ] } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript GET Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;); return await response.json(); } POST Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: \u0026#39;grade_level=1\u0026#39;, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;application\/x-www-form-urlencoded\u0026#39; } }); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/leaderboard\/"
+						},
+						
+						{
 							value: "LMS Installation and Docs",
 							label: "<p></p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/lms-installation-and-docs\/"
@@ -174,6 +180,12 @@
 						},
 						
 						{
+							value: "Add Point",
+							label: "<p>Description Add point to student record.\nMethod POST Endpoint  \/admin\/api.php?f=addPoints\n Header  Content-Type: application\/x-www-form-urlencoded\n Body  student_id={student id}\u0026amp;points={points}\n Response Success { result: \u0026#34;success\u0026#34; \/\/String } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript POST Request const addPoint = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=addPoint\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: \u0026#39;student_id=4\u0026amp;points=10\u0026#39;, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;application\/x-www-form-urlencoded\u0026#39; } }); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/add-point\/"
+						},
+						
+						{
 							value: "API and Scaling Docs",
 							label: "<p></p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/"
@@ -187,14 +199,8 @@
 						
 						{
 							value: "Install XAMPP",
-							label: "<p> Download XAMPP Open the download binary file Click Next  Click Next  Change the path if you want to change the installation folder then click next  Select your language then click next  Uncheck checkbox and click next  Click next  Wait until installation is finish  Uncheck checkbox and click Finish  Run XAMPP as adminstrator  (Optioanl) Install Apache server to automatically start apache on windows startup. Click the red \u0026ldquo;X\u0026rdquo; mark beside Apache and click Yes.  Click Allow access  (Optional) Install MySQL server to automatically start MySQL server on windows startup. Click the red \u0026ldquo;X\u0026rdquo; mark beside MySQL and click Yes.  Press Start button of Apace and MySQL then visit http:\/\/localhost  Done!   </p><p>Server</p>",
+							label: "<p> Download XAMPP Open the download binary file Click Next  Click Next  Change the path if you want to change the installation folder then click next  Select your language then click next  Uncheck checkbox and click next  Click next  Wait until installation is finish  Uncheck checkbox and click Finish  Run XAMPP as adminstrator  (Optional) Install Apache server to automatically start apache on windows startup. Click the red \u0026ldquo;X\u0026rdquo; mark beside Apache and click Yes.  Click Allow access  (Optional) Install MySQL server to automatically start MySQL server on windows startup. Click the red \u0026ldquo;X\u0026rdquo; mark beside MySQL and click Yes.  Press Start button of Apace and MySQL then visit http:\/\/localhost  Done!   </p><p>Server</p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/lms-installation-and-docs\/installation\/windows\/install-xampp\/"
-						},
-						
-						{
-							value: "Leaderboard",
-							label: "<p>Description Return students record in descending order base on student points\nMethod GET\/POST Endpoint  \/admin\/api.php?f=leaderboard\n Header  Content-Type: application\/x-www-form-urlencoded\n Body (Optional) Filter by school name  school_name={schoolname}\n Filter by grade level  grade_level={gradelevel}\n Filter by school name and grade level  school_name={schoolname}\u0026amp;grade_level={gradelevel}\n Response Success { result: \u0026#34;success\u0026#34;, \/\/String  content: [ \/\/Array of Objects  { id: int, user_id: int, firstname: string, lastname: string, gradelevel: int, schoolname: int, preferences: string, points: int } ] } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript GET Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;); return await response.json(); } POST Request const leaderboard = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=leaderboard\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: \u0026#39;grade_level=1\u0026#39;, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;application\/x-www-form-urlencoded\u0026#39; } }); return await response.json(); } </p>",
-							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/leaderboard\/"
 						},
 						
 						{
@@ -213,6 +219,12 @@
 							value: "App Usage Manual",
 							label: "<p></p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/app-usage-manual\/"
+						},
+						
+						{
+							value: "Edit Student",
+							label: "<p>Description Edit student record.\nMethod POST Endpoint  \/admin\/api.php?f=editStudent\u0026amp;id={student id}\n Header  Content-Type: multipart\/form-data\n Body Form Data At lease one key-value pair is present.\n\r   Key Value     username String   password String   email String   mobile Integer   first_name String   last_name String   grade_level Integer   school_name Integer   preferences String   progress Integer   file blob    Response Success { result: \u0026#34;success\u0026#34; \/\/String } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript POST Request const photo = document.querySelector(\u0026#39;input[type=file]\u0026#39;); let formData = new FormData(); formData.append(\u0026#39;first_name\u0026#39;,\u0026#39;Juan\u0026#39;); formData.append(\u0026#39;last_name\u0026#39;,\u0026#39;Dela Cruz\u0026#39;); formData.append(\u0026#39;file\u0026#39;, photo.files[0]); const editStudent = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=editStudent\u0026amp;id=2\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: formData, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;multipart\/form-data\u0026#39; } }); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/edit-student\/"
 						},
 						
 						{
@@ -243,6 +255,18 @@
 							value: "Contributing Guidelines",
 							label: "<p></p>",
 							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/contributing-guidelines\/"
+						},
+						
+						{
+							value: "Get Student",
+							label: "<p>Description Return student record.\nMethod GET Endpoint  \/admin\/api.php?f=getStudent\u0026amp;id={student id}\n Header  Content-Type: application\/x-www-form-urlencoded\n Body  Not Applicable\n Response Success { result: \u0026#34;success\u0026#34;, \/\/String  content: [ { id: int, userid: int, username: string, email: string, mobile: int, firstname: string, lastname: string, gradelevel: int, schoolname: string, preferences: string, points: int } ] } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript POST Request const students = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=getStudent\u0026amp;id=2\u0026#39;,{ method: \u0026#39;POST\u0026#39;, body: \u0026#39;id=4\u0026#39;, headers: { \u0026#39;Content-Type\u0026#39;: \u0026#39;application\/x-www-form-urlencoded\u0026#39; } }); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/get-student\/"
+						},
+						
+						{
+							value: "Get Students",
+							label: "<p>Description Return all student base on teacher\nMethod POST Endpoint  \/admin\/api.php?f=getStudents\n Header  Content-Type: application\/x-www-form-urlencoded\n Body  id={teacher id}\n Response Success { result: \u0026#34;success\u0026#34;, \/\/String  content: { id: int, userid: int, username: string, email: string, mobile: int, firstname: string, lastname: string, gradelevel: int, schoolname: string, preferences: string, points: int } } Fail { result: \u0026#34;fail\u0026#34; \/\/String } Example Javascript GET Request const student = async () =\u0026gt; { const response = await fetch(\u0026#39;http:\/\/stockknowledge.org\/admin\/api.php?f=getStudent\u0026amp;id=2\u0026#39;); return await response.json(); } </p>",
+							url:"https:\/\/Stock-Knowledge-Engineering.github.io\/documentation\/api-and-scaling-docs\/endpoints\/get-students\/"
 						},
 						
 						{
