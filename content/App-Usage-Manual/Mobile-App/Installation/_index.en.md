@@ -2,7 +2,7 @@
 title: "Installation"
 date: 2020-11-25T02:55:35Z
 description: "Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet"
-weight: 1
+weight: 2
 ---
 
 ### Android
