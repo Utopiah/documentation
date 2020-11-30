@@ -11,5 +11,5 @@ keywords: ["Server"]
 1. Open command prompt and change directory to xampp htdocs folder.
    > cd x:\xampp\htdocs
 2. Use git clone command to clone Stock Knowledge LMS repository
-   > git clone -b master https://github.com/Stock-Knowledge-Engineering/aws.git
+   > git clone -b master https://github.com/Stock-Knowledge-Engineering/SK-LMS-App
 3. Done
